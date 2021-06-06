@@ -34,11 +34,6 @@
     "config": {
         "bin-dir": "bin"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.9-dev"
-        }
-    },
     "autoload": {
         "psr-4": {
             "Testtaxation\\Component\\Taxation\\": ""
@@ -48,8 +43,7 @@
         "psr-4": {
             "Testtaxation\\Component\\Taxation\\spec\\": "spec/"
         }
-    },
+    }
 
-    "minimum-stability": "dev",
-    "prefer-stable": true
+
 }
