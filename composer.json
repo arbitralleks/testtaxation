@@ -49,12 +49,7 @@
             "Testtaxation\\Component\\Taxation\\spec\\": "spec/"
         }
     },
-    "repositories": [
-        {
-            "url": "https://github.com/arbitralleks/testtaxation.git",
-            "type": "git"
-        }
-    ],
+
     "minimum-stability": "dev",
     "prefer-stable": true
 }
