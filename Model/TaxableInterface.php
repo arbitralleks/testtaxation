@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Component\Taxation\Model;
+namespace Testtaxation\Component\Taxation\Model;
 
 interface TaxableInterface
 {

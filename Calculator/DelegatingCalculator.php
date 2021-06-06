@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Sylius\Component\Taxation\Calculator;
+namespace Testtaxation\Component\Taxation\Calculator;
 
 use Sylius\Component\Registry\ServiceRegistryInterface;
 use Sylius\Component\Taxation\Model\TaxRateInterface;

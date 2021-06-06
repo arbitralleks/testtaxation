@@ -1,5 +1,5 @@
 {
-    "name": "sylius/taxation",
+    "name": "testtaxation/taxation",
     "type": "library",
     "description": "Flexible taxation system for PHP ecommerce applications.",
     "keywords": [
@@ -11,7 +11,6 @@
         "vat",
         "sylius"
     ],
-    "homepage": "https://sylius.com",
     "license": "MIT",
     "authors": [
         {
@@ -21,11 +20,8 @@
         {
             "name": "Sylius project",
             "homepage": "https://sylius.com"
-        },
-        {
-            "name": "Community contributions",
-            "homepage": "https://github.com/Sylius/Sylius/contributors"
         }
+
     ],
     "require": {
         "php": "^7.4 || ^8.0",
@@ -45,18 +41,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Sylius\\Component\\Taxation\\": ""
+            "Testtaxation\\Component\\Taxation\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sylius\\Component\\Taxation\\spec\\": "spec/"
+            "Testtaxation\\Component\\Taxation\\spec\\": "spec/"
         }
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../../*/*"
+            "url": "https://github.com/arbitralleks/testtaxation.git",
+            "type": "git"
         }
     ],
     "minimum-stability": "dev",
